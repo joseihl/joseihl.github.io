@@ -22,7 +22,7 @@
 
 if (localStorage.getItem("nombre")) {
     nombre = localStorage.getItem("nombre");
-    span_nombre = document.getElementById(nombre);
+    span_nombre = document.getElementById("nombre");
     span_nombre.textContent = nombre;
 } else {
     window.location.assign("./nombre.html");
