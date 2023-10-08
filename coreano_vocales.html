@@ -21,8 +21,8 @@
     </div>
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Inicio</h1>
-      <p class="lead">Buenas <span id="nombre"></span>, aquí encontrarás FlashCards de idiomas asiáticos. Selecciona el idioma que quieras aprender.</p>
+      <h1 class="display-4">Vocales Coreanas</h1>
+      <p class="lead">Buenas <span id="nombre"></span>, aquí podrás aprender las vocales del Hangul, el idioma coreano.</p>
     </div>
 
     <div class="container">
@@ -32,10 +32,11 @@
             <h4 class="my-0 font-weight-normal">Coreano</h4>
           </div>
           <div class="card-body">
-          <p class="text-monospace display-1">ㅓ</p>
+          <p> Selecciona el fonema de la siguiente letra:</p>
+          <p id="letra" class="text-monospace display-1">ㅓ</p>
           <form>
-            <button type="button" onclick="graba();" class="btn btn-md btn-block btn-danger col-md-3">Recordar</button>
-            <button type="button" onclick="graba();" class="btn btn-md btn-block btn-primary col-md-3">Acertada</button>
+            <button type="button" onclick="opcion_1();" class="btn btn-md btn-block btn-outline-primary col-md-3">[a]</button>
+            <button type="button" onclick="opcion_2();" class="btn btn-md btn-block btn-outline-primary col-md-3">[o]</button>
           </form>
           </div>
         </div>
@@ -69,6 +70,8 @@ datos = [
   { 'id': 6, 'letra': 'ㅡ', 'fonema': '[Ɯ]', 'sonido': "url_a_mp3?" },
 ]
 
+function opcion_1(){};
+function opcion_2(){};
 </script>
 </body>
 </html>
